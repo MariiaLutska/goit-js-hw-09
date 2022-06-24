@@ -33,9 +33,29 @@ img {
 
 .timer {
   display: flex;
+  margin-top: 10px;
 
 }
 
 .field {
-  display: absolute;
+  display: flex;
+  text-align: center;
+  align-items: stretch;
+  margin: 7px;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 1;
+}
+
+.value {
+  font-size: 30px;
+}
+
+.flatpickr-input {
+  font-size: 15px;
+}
+
+.btn_start {
+  font-size: 15px;
 }
